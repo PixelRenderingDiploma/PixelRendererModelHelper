@@ -1,0 +1,10 @@
+[package]
+name = "pixel_renderer_model_helper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+byteorder = "1.4"
+serde = { version = "1.0.201", features = ["derive"] }
+serde_json = "1.0"
+serde_repr = "0.1"
